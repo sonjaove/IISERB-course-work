@@ -4,4 +4,4 @@ checkpoints.ipynb
 __pycache__/
 dump.py
 resize.py
-*.xlsx
+cps92_12.xlsx
