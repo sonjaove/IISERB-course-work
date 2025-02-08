@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[   3090234,      58976]
-NotebookOptionsPosition[   3060085,      58485]
-NotebookOutlinePosition[   3060557,      58503]
-CellTagsIndexPosition[   3060514,      58500]
+NotebookDataLength[   3111052,      59474]
+NotebookOptionsPosition[   3079407,      58958]
+NotebookOutlinePosition[   3079879,      58976]
+CellTagsIndexPosition[   3079836,      58973]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -58001,95 +58001,14 @@ calculation.\"", 2, 20, 24, 31954449471893445095, "Local"},
  CellLabel->"",ExpressionUUID->"ddfc5638-4586-9f45-b6d9-cef305ce757b"]
 }, Open  ]],
 
-Cell[BoxData[
- RowBox[{"Needs", "[", "\"\<GitLink`\>\"", "]"}]], "Input",
- CellChangeTimes->{{3.947727366981531*^9, 3.947727372412668*^9}},
- CellLabel->"In[30]:=",ExpressionUUID->"812b94b8-af1a-d94b-a867-57a23d2965df"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"repo", "=", 
-   RowBox[{
-   "GitOpen", "[", 
-    "\"\<C:/Users/vvagh/OneDrive - Indian Institute of Science Education and \
-Research Bhopal/Documents/IISERB/SEM 4/PHY 206\>\"", "]"}]}], "\n"}]], "Input",
- CellChangeTimes->{{3.947727380144081*^9, 3.947727380146097*^9}, 
-   3.9477274211016216`*^9, {3.9477274548198547`*^9, 3.947727473306999*^9}, {
-   3.947727506250004*^9, 3.947727508311001*^9}, 3.94772755364242*^9},
- CellLabel->"In[32]:=",ExpressionUUID->"5a124606-da98-9749-aeb8-d1fd05aa9eaa"],
-
-Cell[BoxData[
- TemplateBox[{
-  "AbsoluteFileName", "fdnfnd", 
-   "\"Directory or file \
-\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"C:/Users/vvagh/OneDrive - Indian Institute \
-of Science Education and Research Bhopal/Documents/IISERB/SEM 4/PHY 206\\\\\\\
-\"\\\"}]\\)\\\" not found.\"", 2, 32, 44, 31954449471893445095, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.947727476266428*^9, 3.947727567118126*^9},
- CellLabel->
-  "During evaluation of \
-In[32]:=",ExpressionUUID->"323d58c7-c046-da49-9fa1-526dfba4f588"],
-
-Cell[BoxData["$Failed"], "Output",
- CellChangeTimes->{3.947727476282442*^9, 3.9477275671340046`*^9},
- CellLabel->"Out[32]=",ExpressionUUID->"5d9f9fb7-9198-5243-ba0f-560f016511ee"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData["ClearAll"], "Input",
- CellChangeTimes->{{3.9477275730141983`*^9, 3.947727574067522*^9}},
- CellLabel->"In[33]:=",ExpressionUUID->"a3b696c8-abc5-554d-aafe-0268241d8245"],
-
-Cell[BoxData["ClearAll"], "Output",
- CellChangeTimes->{3.9477275746540604`*^9},
- CellLabel->"Out[33]=",ExpressionUUID->"1c173f7f-1b8c-744b-a312-aeeb2215b4bc"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"repo", "=", 
-   RowBox[{"GitOpen", "[", 
-    RowBox[{"FileNameJoin", "[", 
-     RowBox[{"{", 
-      RowBox[{
-      "$HomeDirectory", ",", 
-       "\"\<OneDrive - Indian Institute of Science Education and Research \
-Bhopal\>\"", ",", "\"\<Documents\>\"", ",", "\"\<IISERB\>\"", ",", 
-       "\"\<SEM 4\>\"", ",", "\"\<PHY 206\>\""}], "}"}], "]"}], "]"}]}], 
-  "\n"}]], "Input",
- CellChangeTimes->{{3.9477275769098263`*^9, 3.947727576911833*^9}},
- CellLabel->"In[34]:=",ExpressionUUID->"71a3efba-fc11-1d40-bed4-76d077786279"],
-
-Cell[BoxData[
- TemplateBox[{
-  "AbsoluteFileName", "fdnfnd", 
-   "\"Directory or file \
-\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\vvagh\
-\\\\\\\\\\\\\\\\OneDrive - Indian Institute of Science Education and Research \
-Bhopal\\\\\\\\\\\\\\\\Documents\\\\\\\\\\\\\\\\IISERB\\\\\\\\\\\\\\\\SEM \
-4\\\\\\\\\\\\\\\\PHY 206\\\\\\\"\\\"}]\\)\\\" not found.\"", 2, 34, 45, 
-   31954449471893445095, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9477275776755466`*^9},
- CellLabel->
-  "During evaluation of \
-In[34]:=",ExpressionUUID->"f3c73a34-73ce-3f45-b696-2a56021b9252"],
-
-Cell[BoxData["$Failed"], "Output",
- CellChangeTimes->{3.9477275776913204`*^9},
- CellLabel->"Out[34]=",ExpressionUUID->"18250b7a-ea86-0c46-922f-bf640b7679fe"]
-}, Open  ]],
-
 Cell[CellGroupData[{
 
 Cell[BoxData[{
- RowBox[{"Needs", "[", "\"\<GitLink`\>\"", "]"}], "\n", 
+ RowBox[{
+  RowBox[{"Needs", "[", "\"\<GitLink`\>\"", "]"}], 
+  RowBox[{"(*", "\[IndentingNewLine]", 
+   RowBox[{"activating", " ", "the", " ", "gitlink", " ", 
+    RowBox[{"package", "."}]}], "\[IndentingNewLine]", "*)"}]}], "\n", 
  RowBox[{"r", "=", 
   RowBox[{
   "GitOpen", "[", 
@@ -58099,8 +58018,9 @@ Research Bhopal/Documents/IISERB docs/SEM 4/PHY 206\>\"", "]"}]}], "\n",
   RowBox[{"ToGitObject", "[", 
    RowBox[{"r", ",", "\"\<master\>\""}], "]"}]}], "\n", 
  RowBox[{"GitProperties", "[", "c", "]"}]}], "Input",
- CellChangeTimes->{{3.9477276385169754`*^9, 3.947727690500017*^9}},
- CellLabel->"In[35]:=",ExpressionUUID->"298ecfdb-38f5-ff4f-976f-23c3cf31d848"],
+ CellChangeTimes->{{3.9477276385169754`*^9, 3.947727690500017*^9}, 
+   3.94772818377199*^9},ExpressionUUID->"298ecfdb-38f5-ff4f-976f-\
+23c3cf31d848"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -58148,12 +58068,7 @@ of Science Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\
 
 Cell[BoxData["$Failed"], "Output",
  CellChangeTimes->{3.9477276917514515`*^9},
- CellLabel->"Out[37]=",ExpressionUUID->"5368759f-67cb-694f-b36f-077461fd13fc"],
-
-Cell[BoxData[
- RowBox[{"GitProperties", "[", "$Failed", "]"}]], "Output",
- CellChangeTimes->{3.9477276917514515`*^9},
- CellLabel->"Out[38]=",ExpressionUUID->"e09192cd-0bfc-6745-9c21-4d02c518d6d0"]
+ CellLabel->"Out[37]=",ExpressionUUID->"5368759f-67cb-694f-b36f-077461fd13fc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -58479,6 +58394,564 @@ docs\\\\SEM 4\\\\PHY 206\\\\\"|>]"]& )]}]}],
   "\[RightAssociation]"}]], "Output",
  CellChangeTimes->{3.9477280325368195`*^9},
  CellLabel->"Out[42]=",ExpressionUUID->"9375fa82-c78c-dd49-a721-8f05ea54ed05"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitCommit", "[", 
+   RowBox[{
+   "r", ",", 
+    "\"\<intgrated gitlink in the mathematica, till lecture 14\>\""}], "]"}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.9477282186319275`*^9, 3.9477282186319275`*^9}, {
+  3.9477282565240364`*^9, 3.94772829384173*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"a5b6dc4e-4c65-0c44-bec5-4f527a378d47"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TooltipBox[
+    FrameBox[
+     TemplateBox[{
+       StyleBox["\"Commit\"", Italic, StripOnInput -> False], "\": \"", 
+       "\"17825a43\"", "\"\[Ellipsis]\""},
+      "RowDefault"],
+     Background->RGBColor[0.9, 1., 0.9],
+     BaseStyle->"Panel",
+     BaselinePosition->Baseline,
+     FrameMargins->{{5, 5}, {3, 3}},
+     FrameStyle->GrayLevel[0.8],
+     RoundingRadius->5,
+     StripOnInput->False],
+    TemplateBox[{
+     "\"Commit\"", "\" in \"", 
+      "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\"", "\": \"", 
+      StyleBox[
+      "\"17825a431874cb89b7298f4af7a2ecf7be284028\"", Bold, StripOnInput -> 
+       False]}, "RowDefault"],
+    TooltipStyle->"TextStyling"],
+   Annotation[#, 
+    Row[{"Commit", " in ", 
+      "C:\\Users\\vvagh\\OneDrive - Indian Institute of Science Education and \
+Research Bhopal\\Documents\\IISERB docs\\SEM 4\\PHY 206\\", ": ", 
+      Style["17825a431874cb89b7298f4af7a2ecf7be284028", Bold]}], "Tooltip"]& ],
+  GitLink`GitObject["17825a431874cb89b7298f4af7a2ecf7be284028", 
+   GitLink`GitRepo[<|
+    "BareQ" -> False, "GitDirectory" -> 
+     "C:\\Users\\vvagh\\OneDrive - Indian Institute of Science Education and \
+Research Bhopal\\Documents\\IISERB docs\\SEM 4\\PHY 206\\.git\\", 
+     "WorkingDirectory" -> 
+     "C:\\Users\\vvagh\\OneDrive - Indian Institute of Science Education and \
+Research Bhopal\\Documents\\IISERB docs\\SEM 4\\PHY 206\\"|>]]]], "Output",
+ CellChangeTimes->{3.9477282954327908`*^9},
+ CellLabel->"Out[44]=",ExpressionUUID->"5c818ad1-36a3-184f-a776-bb5257f23fbb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitPush", "[", "r", "]"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.9477283037891464`*^9, 3.9477283037891464`*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"1735dc38-6bad-1c45-b15f-d08bae06174f"],
+
+Cell[BoxData[
+ RowBox[{"GitPush", "[", 
+  TemplateBox[{
+    RowBox[{"\[LeftAssociation]", 
+      RowBox[{
+        RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+        RowBox[{
+         "\"GitDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\.git\\\\\""}], ",", 
+        RowBox[{
+         "\"WorkingDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}]}], "\[RightAssociation]"}]},
+   "GitRepo",
+   DisplayFunction->(TooltipBox[
+     PanelBox[
+      GridBox[{{
+         GraphicsBox[{
+           EdgeForm[
+            GrayLevel[0.5]], 
+           GrayLevel[0.5], 
+           Thickness[0.1], 
+           LineBox[{{0, 0}, {5, 0}}], 
+           LineBox[{{0, 0}, {5, -3}}], 
+           GrayLevel[0.85], 
+           DiskBox[{0, 0}, 1], 
+           DiskBox[{5, 0}, 1], 
+           RGBColor[0, 1, 0], 
+           DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+         "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+      Baseline], 
+     "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science Education \
+and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\\\\.git\\\
+\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian \
+Institute of Science Education and Research Bhopal\\\\Documents\\\\IISERB \
+docs\\\\SEM 4\\\\PHY 206\\\\\"|>]"]& )], "]"}]], "Output",
+ CellChangeTimes->{3.9477283049121017`*^9},
+ CellLabel->"Out[45]=",ExpressionUUID->"3fac2a28-b6dd-3840-8f92-ea65dca3cac0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitAddRemote", "[", 
+   RowBox[{
+   "r", ",", "\"\<master\>\"", ",", 
+    "\"\<https://github.com/sonjaove/IISERB-course-work/\>\""}], "]"}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.94772831702693*^9, 3.947728344387705*^9}, {
+  3.947728374782892*^9, 3.9477283923295727`*^9}},
+ CellLabel->"In[48]:=",ExpressionUUID->"b0079766-3ebc-fb43-a02b-588ad0e20724"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"master\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"FetchURL\"\>", 
+       "\[Rule]", "\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}],
+       ",", 
+      RowBox[{"\<\"PushURL\"\>", 
+       "\[Rule]", "\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}],
+       ",", 
+      RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+       RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/master/*\"\>", "}"}]}], 
+      ",", 
+      RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+       RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"origin\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"FetchURL\"\>", 
+       "\[Rule]", "\<\"https://github.com/sonjaove/IISERB-course-work\"\>"}], 
+      ",", 
+      RowBox[{"\<\"PushURL\"\>", 
+       "\[Rule]", "\<\"https://github.com/sonjaove/IISERB-course-work\"\>"}], 
+      ",", 
+      RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+       RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/origin/*\"\>", "}"}]}], 
+      ",", 
+      RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+       RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"sem4\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"FetchURL\"\>", 
+       "\[Rule]", "\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}],
+       ",", 
+      RowBox[{"\<\"PushURL\"\>", 
+       "\[Rule]", "\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}],
+       ",", 
+      RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+       RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/sem4/*\"\>", "}"}]}], ",", 
+      RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+       RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{
+  3.94772834575721*^9, {3.947728377587965*^9, 3.947728392682476*^9}},
+ CellLabel->"Out[48]=",ExpressionUUID->"eebed720-df6f-2947-8c31-4b51d04b064c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitRemoveRemote", "[", 
+   RowBox[{"r", ",", "\"\<master\>\""}], "]"}], "\n", "\n"}]], "Input",
+ CellChangeTimes->{{3.9477284693846684`*^9, 3.9477284792315884`*^9}, {
+  3.947728566024004*^9, 3.947728583175703*^9}},
+ CellLabel->"In[51]:=",ExpressionUUID->"1cca0f54-53ac-6445-a8c6-5bcd3e856293"],
+
+Cell[BoxData[
+ RowBox[{"GitRemoveRemote", "[", 
+  RowBox[{
+   TemplateBox[{
+     RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+         RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+         RowBox[{
+          "\"GitDirectory\"", "\[Rule]", 
+           "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\.git\\\\\""}], ",", 
+         RowBox[{
+          "\"WorkingDirectory\"", "\[Rule]", 
+           "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}]}], "\[RightAssociation]"}]},
+    "GitRepo",
+    DisplayFunction->(TooltipBox[
+      PanelBox[
+       GridBox[{{
+          GraphicsBox[{
+            EdgeForm[
+             GrayLevel[0.5]], 
+            GrayLevel[0.5], 
+            Thickness[0.1], 
+            LineBox[{{0, 0}, {5, 0}}], 
+            LineBox[{{0, 0}, {5, -3}}], 
+            GrayLevel[0.85], 
+            DiskBox[{0, 0}, 1], 
+            DiskBox[{5, 0}, 1], 
+            RGBColor[0, 1, 0], 
+            DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+       Baseline], 
+      "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science Education \
+and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\\\\.git\\\
+\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian \
+Institute of Science Education and Research Bhopal\\\\Documents\\\\IISERB \
+docs\\\\SEM 4\\\\PHY 206\\\\\"|>]"]& )], ",", "\<\"master\"\>"}], 
+  "]"}]], "Output",
+ CellChangeTimes->{
+  3.9477284700164967`*^9, {3.947728576412794*^9, 3.9477285837224007`*^9}},
+ CellLabel->"Out[51]=",ExpressionUUID->"500f6748-b113-4f4e-9aef-c82cad503d72"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitProperties", "[", "r", "]"}], "\n", "\n"}]], "Input",
+ CellChangeTimes->{{3.9477286060500927`*^9, 3.9477286060521107`*^9}, 
+   3.947728648711853*^9},
+ CellLabel->"In[53]:=",ExpressionUUID->"57a21393-45bf-a949-8ae0-4e21ccbd6ca8"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"HEAD\"\>", "\[Rule]", "\<\"refs/heads/sem4\"\>"}], ",", 
+   RowBox[{"\<\"HeadBranch\"\>", "\[Rule]", "\<\"sem4\"\>"}], ",", 
+   RowBox[{"\<\"ShallowQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"EmptyQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"UnbornHeadQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"BareQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"GitDirectory\"\>", 
+    "\[Rule]", "\<\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of \
+Science Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM \
+4\\\\PHY 206\\\\.git\\\\\"\>"}], ",", 
+   RowBox[{"\<\"WorkingDirectory\"\>", 
+    "\[Rule]", "\<\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of \
+Science Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM \
+4\\\\PHY 206\\\\\"\>"}], ",", 
+   RowBox[{"\<\"DetachedHeadQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"Namespace\"\>", "\[Rule]", "$Failed"}], ",", 
+   RowBox[{"\<\"State\"\>", "\[Rule]", "\<\"None\"\>"}], ",", 
+   RowBox[{"\<\"Conflicts\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"Remotes\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"master\"\>", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"FetchURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}], ",", 
+         RowBox[{"\<\"PushURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}], ",", 
+         RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/master/*\"\>", "}"}]}],
+          ",", 
+         RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}], ",", 
+      RowBox[{"\<\"origin\"\>", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"FetchURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/sonjaove/IISERB-course-work\"\>"}], ",", 
+         RowBox[{"\<\"PushURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/sonjaove/IISERB-course-work\"\>"}], ",", 
+         RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/origin/*\"\>", "}"}]}],
+          ",", 
+         RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}], ",", 
+      RowBox[{"\<\"sem4\"\>", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"FetchURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}], ",", 
+         RowBox[{"\<\"PushURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/sonjaove/IISERB-course-work/\"\>"}], ",", 
+         RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/sem4/*\"\>", "}"}]}], 
+         ",", 
+         RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}]}], 
+     "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"LocalBranches\"\>", "\[Rule]", 
+    RowBox[{"{", "\<\"sem4\"\>", "}"}]}], ",", 
+   RowBox[{"\<\"RemoteBranches\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"origin/master\"\>", ",", "\<\"origin/sem4\"\>"}], "}"}]}], 
+   ",", 
+   RowBox[{"\<\"Tags\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.94772860651338*^9, 3.947728649189934*^9},
+ CellLabel->"Out[53]=",ExpressionUUID->"d9716ac7-a422-c642-bbc9-dd06fcd1bc56"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitPush", "[", 
+   RowBox[{"r", ",", "\"\<origin\>\"", ",", "\"\<sem4\>\""}], "]"}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.9477286684763927`*^9, 3.947728671921316*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"85adbffc-8ba1-bc40-8e81-e44998a3d976"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringForm", "sfr", 
+   "\"Item \\!\\(\\*RowBox[{\\\"1\\\"}]\\) requested in \\\"\\!\\(\\*RowBox[{\
+\\\"\\\\\\\"The git remote failed to connect with the error \
+\\\\\\\\\\\\\\\"`1`\\\\\\\\\\\\\\\".\\\\\\\"\\\"}]\\)\\\" out of range; \
+\\!\\(\\*RowBox[{\\\"0\\\"}]\\) items available.\"", 2, 54, 49, 
+   31954449471893445095, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.947728674107424*^9},
+ CellLabel->
+  "During evaluation of \
+In[54]:=",ExpressionUUID->"3d217e36-0637-d44d-9023-3aca2465d2e4"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GitPush", "noconnect", 
+   "\"The git remote failed to connect with the error \\\"`1`\\\".\"", 2, 54, 
+   48, 31954449471893445095, "Local", "GitLink`GitPush"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.9477286741335354`*^9},
+ CellLabel->
+  "During evaluation of \
+In[54]:=",ExpressionUUID->"c070be4f-93da-e447-b3b5-3f3dc698077c"],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{3.947728674144329*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"6f89d740-dc60-0643-90db-0f35e675e1f0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitFetch", "[", "r", "]"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.9477287085289307`*^9, 3.9477287085289307`*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"20fbc9bc-58a1-514f-b479-ee1b065607e2"],
+
+Cell[BoxData[
+ RowBox[{"GitFetch", "[", 
+  TemplateBox[{
+    RowBox[{"\[LeftAssociation]", 
+      RowBox[{
+        RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+        RowBox[{
+         "\"GitDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\.git\\\\\""}], ",", 
+        RowBox[{
+         "\"WorkingDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}]}], "\[RightAssociation]"}]},
+   "GitRepo",
+   DisplayFunction->(TooltipBox[
+     PanelBox[
+      GridBox[{{
+         GraphicsBox[{
+           EdgeForm[
+            GrayLevel[0.5]], 
+           GrayLevel[0.5], 
+           Thickness[0.1], 
+           LineBox[{{0, 0}, {5, 0}}], 
+           LineBox[{{0, 0}, {5, -3}}], 
+           GrayLevel[0.85], 
+           DiskBox[{0, 0}, 1], 
+           DiskBox[{5, 0}, 1], 
+           RGBColor[0, 1, 0], 
+           DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+         "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+      Baseline], 
+     "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science Education \
+and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\\\\.git\\\
+\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian \
+Institute of Science Education and Research Bhopal\\\\Documents\\\\IISERB \
+docs\\\\SEM 4\\\\PHY 206\\\\\"|>]"]& )], "]"}]], "Output",
+ CellChangeTimes->{3.94772870914254*^9},
+ CellLabel->"Out[55]=",ExpressionUUID->"708c8e81-80fa-044f-8f13-1041ffb7d16f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"GitRemoveRemote", "[", 
+  RowBox[{"r", ",", "\"\<origin\>\""}], "]"}], "\n", 
+ RowBox[{"GitAddRemote", "[", 
+  RowBox[{
+  "r", ",", "\"\<sem4\>\"", ",", 
+   "\"\<https://github.com/sonjaove/IISERB-course-work/.git\>\""}], 
+  "]"}], "\n"}], "Input",
+ CellChangeTimes->{{3.947728718113802*^9, 3.947728758273735*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"c73f0992-377a-f44c-a1cc-8e9f95dd04f0"],
+
+Cell[BoxData[
+ RowBox[{"GitRemoveRemote", "[", 
+  RowBox[{
+   TemplateBox[{
+     RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+         RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+         RowBox[{
+          "\"GitDirectory\"", "\[Rule]", 
+           "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\.git\\\\\""}], ",", 
+         RowBox[{
+          "\"WorkingDirectory\"", "\[Rule]", 
+           "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}]}], "\[RightAssociation]"}]},
+    "GitRepo",
+    DisplayFunction->(TooltipBox[
+      PanelBox[
+       GridBox[{{
+          GraphicsBox[{
+            EdgeForm[
+             GrayLevel[0.5]], 
+            GrayLevel[0.5], 
+            Thickness[0.1], 
+            LineBox[{{0, 0}, {5, 0}}], 
+            LineBox[{{0, 0}, {5, -3}}], 
+            GrayLevel[0.85], 
+            DiskBox[{0, 0}, 1], 
+            DiskBox[{5, 0}, 1], 
+            RGBColor[0, 1, 0], 
+            DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+       Baseline], 
+      "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science Education \
+and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\\\\.git\\\
+\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian \
+Institute of Science Education and Research Bhopal\\\\Documents\\\\IISERB \
+docs\\\\SEM 4\\\\PHY 206\\\\\"|>]"]& )], ",", "\<\"origin\"\>"}], 
+  "]"}]], "Output",
+ CellChangeTimes->{{3.94772874333926*^9, 3.947728758702833*^9}},
+ CellLabel->"Out[58]=",ExpressionUUID->"2fe7a5f9-55de-6c46-995d-fa0c5869c5ab"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringForm", "sfr", 
+   "\"Item \\!\\(\\*RowBox[{\\\"1\\\"}]\\) requested in \\\"\\!\\(\\*RowBox[{\
+\\\"\\\\\\\"A git operation failed with the message \\\\\\\\\\\\\\\"`1`\\\\\\\
+\\\\\\\\\".\\\\\\\"\\\"}]\\)\\\" out of range; \
+\\!\\(\\*RowBox[{\\\"0\\\"}]\\) items available.\"", 2, 59, 53, 
+   31954449471893445095, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.9477287433531036`*^9, 3.9477287587088604`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[58]:=",ExpressionUUID->"2f381d49-b0ed-da49-9e9f-b53ae5dc29da"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GitAddRemote", "gitoperationfailed", 
+   "\"A git operation failed with the message \\\"`1`\\\".\"", 2, 59, 52, 
+   31954449471893445095, "Local", "GitLink`GitAddRemote"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{{3.9477287433531036`*^9, 3.9477287587168865`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[58]:=",ExpressionUUID->"d4cf5cf9-a572-1c4f-ab3e-0051b3525e34"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{{3.94772874333926*^9, 3.9477287587168865`*^9}},
+ CellLabel->"Out[59]=",ExpressionUUID->"3e2293b0-7673-bd4c-b2ab-1cd67c185eb3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"GitRemotes", "[", "r", "]"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.9477288001181507`*^9, 3.9477288001181507`*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"7b30df00-ac60-2341-8288-351f5a770b25"],
+
+Cell[BoxData[
+ RowBox[{"GitRemotes", "[", 
+  TemplateBox[{
+    RowBox[{"\[LeftAssociation]", 
+      RowBox[{
+        RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+        RowBox[{
+         "\"GitDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\.git\\\\\""}], ",", 
+        RowBox[{
+         "\"WorkingDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}]}], "\[RightAssociation]"}]},
+   "GitRepo",
+   DisplayFunction->(TooltipBox[
+     PanelBox[
+      GridBox[{{
+         GraphicsBox[{
+           EdgeForm[
+            GrayLevel[0.5]], 
+           GrayLevel[0.5], 
+           Thickness[0.1], 
+           LineBox[{{0, 0}, {5, 0}}], 
+           LineBox[{{0, 0}, {5, -3}}], 
+           GrayLevel[0.85], 
+           DiskBox[{0, 0}, 1], 
+           DiskBox[{5, 0}, 1], 
+           RGBColor[0, 1, 0], 
+           DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+         "\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science \
+Education and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\
+\\\\\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+      Baseline], 
+     "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian Institute of Science Education \
+and Research Bhopal\\\\Documents\\\\IISERB docs\\\\SEM 4\\\\PHY 206\\\\.git\\\
+\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\vvagh\\\\OneDrive - Indian \
+Institute of Science Education and Research Bhopal\\\\Documents\\\\IISERB \
+docs\\\\SEM 4\\\\PHY 206\\\\\"|>]"]& )], "]"}]], "Output",
+ CellChangeTimes->{3.947728800714239*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"194d855b-5ef1-7a4c-b5bc-1e243d051b29"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -58939,42 +59412,67 @@ Cell[3038831, 57962, 713, 13, 31, "Message",ExpressionUUID->"26e532f9-6551-b042-
 Cell[3039547, 57977, 715, 13, 31, "Message",ExpressionUUID->"decb1acd-da55-9f42-96e8-795610fd3b3a"],
 Cell[3040265, 57992, 416, 8, 31, "Message",ExpressionUUID->"ddfc5638-4586-9f45-b6d9-cef305ce757b"]
 }, Open  ]],
-Cell[3040696, 58003, 218, 3, 33, "Input",ExpressionUUID->"812b94b8-af1a-d94b-a867-57a23d2965df"],
 Cell[CellGroupData[{
-Cell[3040939, 58010, 530, 10, 148, "Input",ExpressionUUID->"5a124606-da98-9749-aeb8-d1fd05aa9eaa"],
-Cell[3041472, 58022, 528, 11, 53, "Message",ExpressionUUID->"323d58c7-c046-da49-9fa1-526dfba4f588"],
-Cell[3042003, 58035, 179, 2, 38, "Output",ExpressionUUID->"5d9f9fb7-9198-5243-ba0f-560f016511ee"]
+Cell[3040718, 58005, 761, 17, 216, "Input",ExpressionUUID->"298ecfdb-38f5-ff4f-976f-23c3cf31d848"],
+Cell[3041482, 58024, 1862, 42, 52, "Output",ExpressionUUID->"061df74c-5831-b041-b985-34fc0502eb59"],
+Cell[3043347, 58068, 157, 2, 38, "Output",ExpressionUUID->"5368759f-67cb-694f-b36f-077461fd13fc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3042219, 58042, 181, 2, 33, "Input",ExpressionUUID->"a3b696c8-abc5-554d-aafe-0268241d8245"],
-Cell[3042403, 58046, 158, 2, 38, "Output",ExpressionUUID->"1c173f7f-1b8c-744b-a312-aeeb2215b4bc"]
+Cell[3043541, 58075, 232, 4, 56, "Input",ExpressionUUID->"77183aa1-610d-5d4e-9605-0f00326830be"],
+Cell[3043776, 58081, 1930, 43, 52, "Output",ExpressionUUID->"54f8c58e-0ba9-724e-89bd-b75199941b0c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3042598, 58053, 558, 13, 148, "Input",ExpressionUUID->"71a3efba-fc11-1d40-bed4-76d077786279"],
-Cell[3043159, 58068, 619, 13, 53, "Message",ExpressionUUID->"f3c73a34-73ce-3f45-b696-2a56021b9252"],
-Cell[3043781, 58083, 157, 2, 38, "Output",ExpressionUUID->"18250b7a-ea86-0c46-922f-bf640b7679fe"]
+Cell[3045743, 58129, 230, 4, 56, "Input",ExpressionUUID->"8b6aa221-bfb5-7b4c-a6e6-cfe4d4ec1e62"],
+Cell[3045976, 58135, 847, 20, 61, "Output",ExpressionUUID->"5ffdaf63-88d7-ee4d-bdab-ce86bf65446e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3043975, 58090, 582, 12, 170, "Input",ExpressionUUID->"298ecfdb-38f5-ff4f-976f-23c3cf31d848"],
-Cell[3044560, 58104, 1862, 42, 52, "Output",ExpressionUUID->"061df74c-5831-b041-b985-34fc0502eb59"],
-Cell[3046425, 58148, 157, 2, 38, "Output",ExpressionUUID->"5368759f-67cb-694f-b36f-077461fd13fc"],
-Cell[3046585, 58152, 196, 3, 38, "Output",ExpressionUUID->"e09192cd-0bfc-6745-9c21-4d02c518d6d0"]
+Cell[3046860, 58160, 269, 5, 33, "Input",ExpressionUUID->"d8c012ee-fce3-dc40-9ec4-2455dc0c8db8"],
+Cell[3047132, 58167, 1682, 39, 43, "Output",ExpressionUUID->"d1399678-8b55-e343-ab82-9ea2c8bad51c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3046818, 58160, 232, 4, 56, "Input",ExpressionUUID->"77183aa1-610d-5d4e-9605-0f00326830be"],
-Cell[3047053, 58166, 1930, 43, 52, "Output",ExpressionUUID->"54f8c58e-0ba9-724e-89bd-b75199941b0c"]
+Cell[3048851, 58211, 145, 2, 33, "Input",ExpressionUUID->"06c44dd7-1dac-9847-af43-53aef58ae15f"],
+Cell[3048999, 58215, 7769, 180, 187, "Output",ExpressionUUID->"9375fa82-c78c-dd49-a721-8f05ea54ed05"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3049020, 58214, 230, 4, 56, "Input",ExpressionUUID->"8b6aa221-bfb5-7b4c-a6e6-cfe4d4ec1e62"],
-Cell[3049253, 58220, 847, 20, 61, "Output",ExpressionUUID->"5ffdaf63-88d7-ee4d-bdab-ce86bf65446e"]
+Cell[3056805, 58400, 376, 9, 56, "Input",ExpressionUUID->"a5b6dc4e-4c65-0c44-bec5-4f527a378d47"],
+Cell[3057184, 58411, 1682, 39, 43, "Output",ExpressionUUID->"5c818ad1-36a3-184f-a776-bb5257f23fbb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3050137, 58245, 269, 5, 33, "Input",ExpressionUUID->"d8c012ee-fce3-dc40-9ec4-2455dc0c8db8"],
-Cell[3050409, 58252, 1682, 39, 43, "Output",ExpressionUUID->"d1399678-8b55-e343-ab82-9ea2c8bad51c"]
+Cell[3058903, 58455, 228, 4, 56, "Input",ExpressionUUID->"1735dc38-6bad-1c45-b15f-d08bae06174f"],
+Cell[3059134, 58461, 1926, 43, 52, "Output",ExpressionUUID->"3fac2a28-b6dd-3840-8f92-ea65dca3cac0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3052128, 58296, 145, 2, 33, "Input",ExpressionUUID->"06c44dd7-1dac-9847-af43-53aef58ae15f"],
-Cell[3052276, 58300, 7769, 180, 187, "Output",ExpressionUUID->"9375fa82-c78c-dd49-a721-8f05ea54ed05"]
+Cell[3061097, 58509, 392, 9, 56, "Input",ExpressionUUID->"b0079766-3ebc-fb43-a02b-588ad0e20724"],
+Cell[3061492, 58520, 2038, 47, 221, "Output",ExpressionUUID->"eebed720-df6f-2947-8c31-4b51d04b064c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3063567, 58572, 328, 6, 79, "Input",ExpressionUUID->"1cca0f54-53ac-6445-a8c6-5bcd3e856293"],
+Cell[3063898, 58580, 2053, 46, 85, "Output",ExpressionUUID->"500f6748-b113-4f4e-9aef-c82cad503d72"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3065988, 58631, 266, 5, 79, "Input",ExpressionUUID->"57a21393-45bf-a949-8ae0-4e21ccbd6ca8"],
+Cell[3066257, 58638, 3630, 77, 426, "Output",ExpressionUUID->"d9716ac7-a422-c642-bbc9-dd06fcd1bc56"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3069924, 58720, 287, 6, 56, "Input",ExpressionUUID->"85adbffc-8ba1-bc40-8e81-e44998a3d976"],
+Cell[3070214, 58728, 555, 12, 31, "Message",ExpressionUUID->"3d217e36-0637-d44d-9023-3aca2465d2e4"],
+Cell[3070772, 58742, 383, 9, 31, "Message",ExpressionUUID->"c070be4f-93da-e447-b3b5-3f3dc698077c"],
+Cell[3071158, 58753, 153, 2, 38, "Output",ExpressionUUID->"6f89d740-dc60-0643-90db-0f35e675e1f0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3071348, 58760, 229, 4, 56, "Input",ExpressionUUID->"20fbc9bc-58a1-514f-b479-ee1b065607e2"],
+Cell[3071580, 58766, 1924, 43, 52, "Output",ExpressionUUID->"708c8e81-80fa-044f-8f13-1041ffb7d16f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3073541, 58814, 418, 9, 79, "Input",ExpressionUUID->"c73f0992-377a-f44c-a1cc-8e9f95dd04f0"],
+Cell[3073962, 58825, 2023, 45, 85, "Output",ExpressionUUID->"2fe7a5f9-55de-6c46-995d-fa0c5869c5ab"],
+Cell[3075988, 58872, 575, 12, 31, "Message",ExpressionUUID->"2f381d49-b0ed-da49-9e9f-b53ae5dc29da"],
+Cell[3076566, 58886, 420, 9, 31, "Message",ExpressionUUID->"d4cf5cf9-a572-1c4f-ab3e-0051b3525e34"],
+Cell[3076989, 58897, 180, 2, 38, "Output",ExpressionUUID->"3e2293b0-7673-bd4c-b2ab-1cd67c185eb3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3077206, 58904, 231, 4, 56, "Input",ExpressionUUID->"7b30df00-ac60-2341-8288-351f5a770b25"],
+Cell[3077440, 58910, 1927, 43, 52, "Output",ExpressionUUID->"194d855b-5ef1-7a4c-b5bc-1e243d051b29"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
